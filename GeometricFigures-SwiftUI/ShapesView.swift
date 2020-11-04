@@ -13,6 +13,7 @@ struct ShapesView: View {
         NavigationView{
             VStack{
                 ScrollView{
+                    MyAnimationView(width: 250, height: 250)
                     GradientRectanglesView(width: 250, height: 250)
                     PathView(width: 250, height: 250)
                     CurvesView(width: 250, height: 250)

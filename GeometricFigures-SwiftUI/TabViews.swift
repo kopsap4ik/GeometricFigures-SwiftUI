@@ -10,15 +10,15 @@ import SwiftUI
 struct TabViews: View {
     var body: some View {
         TabView {
-            AnimationView()
-                .tabItem {
-                    Image(systemName: "waveform.path.ecg")
-                    Text("Анимации")
-                }
             ShapesView()
                 .tabItem {
                     Image(systemName: "skew")
                     Text("Фигуры")
+                }
+            AnimationView()
+                .tabItem {
+                    Image(systemName: "waveform.path.ecg")
+                    Text("Анимации")
                 }
         }
     }

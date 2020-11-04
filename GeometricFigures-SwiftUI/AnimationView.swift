@@ -26,14 +26,18 @@ struct AnimationView: View {
             Spacer()
             
             GradientRectanglesView(width: 250, height: 250)
+                .opacity(showShape ? 1 : 0)
+                .blur(radius: showShape ? 0.0 : 5.0)
                 .offset(y: showShape ? 0 : UIScreen.main.bounds.height)
-                .animation(Animation.interpolatingSpring(mass: 2,
-                                                stiffness: 80,
+                .animation(Animation.interpolatingSpring(mass: 3,
+                                                stiffness: 50,
                                                 damping: 10,
-                                                initialVelocity: 1)
+                                                initialVelocity: 0)
                             .speed(2.0)
                             .delay(0.1)
                 )
+
+                .onTapGesture{ showShape.toggle() }
                 
             Spacer()
         }

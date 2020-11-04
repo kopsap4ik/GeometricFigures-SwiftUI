@@ -11,8 +11,7 @@ import SwiftUI
 struct GeometricFigures_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-            ShapesView()
+            TabViews()
         }
     }
 }
