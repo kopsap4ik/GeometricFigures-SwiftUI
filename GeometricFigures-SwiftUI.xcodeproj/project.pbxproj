@@ -8,32 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		D9CBCAA02551700100A39921 /* GeometricFigures_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCA9F2551700100A39921 /* GeometricFigures_SwiftUIApp.swift */; };
-		D9CBCAA22551700100A39921 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCAA12551700100A39921 /* AnimationView.swift */; };
+		D9CBCAA22551700100A39921 /* TabAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCAA12551700100A39921 /* TabAnimationView.swift */; };
 		D9CBCAA42551700400A39921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CBCAA32551700400A39921 /* Assets.xcassets */; };
 		D9CBCAA72551700400A39921 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CBCAA62551700400A39921 /* Preview Assets.xcassets */; };
 		D9CBCAB02551702200A39921 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D9CBCAAF2551702200A39921 /* README.md */; };
 		D9CBCAB32551706900A39921 /* GradientRectanglesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCAB22551706900A39921 /* GradientRectanglesView.swift */; };
-		D9CBCAB62551734A00A39921 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCAB52551734A00A39921 /* ShapesView.swift */; };
+		D9CBCAB62551734A00A39921 /* TabShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCAB52551734A00A39921 /* TabShapesView.swift */; };
 		D9CBCABA255178AE00A39921 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCAB9255178AE00A39921 /* PathView.swift */; };
 		D9CBCABD2551853F00A39921 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCABC2551853F00A39921 /* CurvesView.swift */; };
-		D9CBCAC1255295E200A39921 /* TabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCAC0255295E200A39921 /* TabViews.swift */; };
-		D9CBCAC525529A3000A39921 /* MyAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCAC425529A3000A39921 /* MyAnimationView.swift */; };
+		D9CBCAC1255295E200A39921 /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCAC0255295E200A39921 /* TabsView.swift */; };
+		D9CBCAC525529A3000A39921 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCAC425529A3000A39921 /* LoadingView.swift */; };
+		D9CBCAC825540E0D00A39921 /* CustomTextGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCAC725540E0D00A39921 /* CustomTextGridView.swift */; };
+		D9CBCACC2554188E00A39921 /* CustomAnyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCACB2554188E00A39921 /* CustomAnyGridView.swift */; };
+		D9CBCACF2554219C00A39921 /* AwardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCACE2554219C00A39921 /* AwardModel.swift */; };
+		D9CBCAD7255427C800A39921 /* TabCustomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCAD6255427C800A39921 /* TabCustomGridView.swift */; };
+		D9CBCAE42555571000A39921 /* SystemVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCAE32555571000A39921 /* SystemVGridView.swift */; };
+		D9CBCAE925555D3400A39921 /* SystemHGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCAE825555D3400A39921 /* SystemHGridView.swift */; };
+		D9CBCAED2555603400A39921 /* TabSystemGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCAEC2555603400A39921 /* TabSystemGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D9CBCA9C2551700100A39921 /* GeometricFigures-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GeometricFigures-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CBCA9F2551700100A39921 /* GeometricFigures_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricFigures_SwiftUIApp.swift; sourceTree = "<group>"; };
-		D9CBCAA12551700100A39921 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		D9CBCAA12551700100A39921 /* TabAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabAnimationView.swift; sourceTree = "<group>"; };
 		D9CBCAA32551700400A39921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9CBCAA62551700400A39921 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9CBCAA82551700400A39921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9CBCAAF2551702200A39921 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D9CBCAB22551706900A39921 /* GradientRectanglesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectanglesView.swift; sourceTree = "<group>"; };
-		D9CBCAB52551734A00A39921 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
+		D9CBCAB52551734A00A39921 /* TabShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShapesView.swift; sourceTree = "<group>"; };
 		D9CBCAB9255178AE00A39921 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 		D9CBCABC2551853F00A39921 /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
-		D9CBCAC0255295E200A39921 /* TabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViews.swift; sourceTree = "<group>"; };
-		D9CBCAC425529A3000A39921 /* MyAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAnimationView.swift; sourceTree = "<group>"; };
+		D9CBCAC0255295E200A39921 /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
+		D9CBCAC425529A3000A39921 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		D9CBCAC725540E0D00A39921 /* CustomTextGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextGridView.swift; sourceTree = "<group>"; };
+		D9CBCACB2554188E00A39921 /* CustomAnyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnyGridView.swift; sourceTree = "<group>"; };
+		D9CBCACE2554219C00A39921 /* AwardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardModel.swift; sourceTree = "<group>"; };
+		D9CBCAD6255427C800A39921 /* TabCustomGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCustomGridView.swift; sourceTree = "<group>"; };
+		D9CBCAE32555571000A39921 /* SystemVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemVGridView.swift; sourceTree = "<group>"; };
+		D9CBCAE825555D3400A39921 /* SystemHGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemHGridView.swift; sourceTree = "<group>"; };
+		D9CBCAEC2555603400A39921 /* TabSystemGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSystemGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				D9CBCA9F2551700100A39921 /* GeometricFigures_SwiftUIApp.swift */,
-				D9CBCAC0255295E200A39921 /* TabViews.swift */,
-				D9CBCAA12551700100A39921 /* AnimationView.swift */,
-				D9CBCAB52551734A00A39921 /* ShapesView.swift */,
-				D9CBCAB22551706900A39921 /* GradientRectanglesView.swift */,
-				D9CBCAB9255178AE00A39921 /* PathView.swift */,
-				D9CBCABC2551853F00A39921 /* CurvesView.swift */,
-				D9CBCAC425529A3000A39921 /* MyAnimationView.swift */,
+				D9CBCAC0255295E200A39921 /* TabsView.swift */,
+				D9CBCAB52551734A00A39921 /* TabShapesView.swift */,
+				D9CBCAD6255427C800A39921 /* TabCustomGridView.swift */,
+				D9CBCAEC2555603400A39921 /* TabSystemGridView.swift */,
+				D9CBCAA12551700100A39921 /* TabAnimationView.swift */,
+				D9CBCAD42554277800A39921 /* Awards */,
+				D9CBCAD12554273F00A39921 /* GridViews */,
 				D9CBCAA32551700400A39921 /* Assets.xcassets */,
 				D9CBCAA82551700400A39921 /* Info.plist */,
 				D9CBCAA52551700400A39921 /* Preview Content */,
@@ -88,6 +102,29 @@
 				D9CBCAA62551700400A39921 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9CBCAD12554273F00A39921 /* GridViews */ = {
+			isa = PBXGroup;
+			children = (
+				D9CBCAC725540E0D00A39921 /* CustomTextGridView.swift */,
+				D9CBCACB2554188E00A39921 /* CustomAnyGridView.swift */,
+				D9CBCAE32555571000A39921 /* SystemVGridView.swift */,
+				D9CBCAE825555D3400A39921 /* SystemHGridView.swift */,
+			);
+			path = GridViews;
+			sourceTree = "<group>";
+		};
+		D9CBCAD42554277800A39921 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				D9CBCAB22551706900A39921 /* GradientRectanglesView.swift */,
+				D9CBCAB9255178AE00A39921 /* PathView.swift */,
+				D9CBCABC2551853F00A39921 /* CurvesView.swift */,
+				D9CBCAC425529A3000A39921 /* LoadingView.swift */,
+				D9CBCACE2554219C00A39921 /* AwardModel.swift */,
+			);
+			path = Awards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,12 +198,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9CBCABD2551853F00A39921 /* CurvesView.swift in Sources */,
-				D9CBCAC525529A3000A39921 /* MyAnimationView.swift in Sources */,
+				D9CBCAC525529A3000A39921 /* LoadingView.swift in Sources */,
 				D9CBCABA255178AE00A39921 /* PathView.swift in Sources */,
-				D9CBCAA22551700100A39921 /* AnimationView.swift in Sources */,
+				D9CBCAA22551700100A39921 /* TabAnimationView.swift in Sources */,
+				D9CBCACC2554188E00A39921 /* CustomAnyGridView.swift in Sources */,
 				D9CBCAA02551700100A39921 /* GeometricFigures_SwiftUIApp.swift in Sources */,
-				D9CBCAB62551734A00A39921 /* ShapesView.swift in Sources */,
-				D9CBCAC1255295E200A39921 /* TabViews.swift in Sources */,
+				D9CBCAE42555571000A39921 /* SystemVGridView.swift in Sources */,
+				D9CBCAE925555D3400A39921 /* SystemHGridView.swift in Sources */,
+				D9CBCACF2554219C00A39921 /* AwardModel.swift in Sources */,
+				D9CBCAB62551734A00A39921 /* TabShapesView.swift in Sources */,
+				D9CBCAED2555603400A39921 /* TabSystemGridView.swift in Sources */,
+				D9CBCAC1255295E200A39921 /* TabsView.swift in Sources */,
+				D9CBCAC825540E0D00A39921 /* CustomTextGridView.swift in Sources */,
+				D9CBCAD7255427C800A39921 /* TabCustomGridView.swift in Sources */,
 				D9CBCAB32551706900A39921 /* GradientRectanglesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

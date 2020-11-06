@@ -1,5 +1,5 @@
 //
-//  MyAnimationView.swift
+//  LoadingView.swift
 //  GeometricFigures-SwiftUI
 //
 //  Created by Василий Петухов on 04.11.2020.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MyAnimationView: View {
+struct LoadingView: View {
     
     let width: CGFloat
     let height: CGFloat
@@ -17,13 +17,16 @@ struct MyAnimationView: View {
     var body: some View {
         HStack{
             Circle()
+                .animation(nil)
+                /* чтобы не было анимации при других изменениях (например: прыгают круги в представлении GridView.swift из-за разного расположения при инициализации) */
                 .opacity(opacity)
                 .animation(Animation
                             .linear(duration: 0.6)
                             .delay(0.0)
                             .repeatForever(autoreverses: true))
-
+            
             Circle()
+                .animation(nil)
                 .opacity(opacity)
                 .animation(Animation
                             .linear(duration: 0.4)
@@ -31,6 +34,7 @@ struct MyAnimationView: View {
                             .repeatForever(autoreverses: true))
             
             Circle()
+                .animation(nil)
                 .opacity(opacity)
                 .animation(Animation
                             .linear(duration: 0.2)
@@ -39,12 +43,13 @@ struct MyAnimationView: View {
         }
         .foregroundColor(.blue)
         .frame(width: width, height: height)
+//        .onTapGesture{ opacity = 0.0 }
         .onAppear{ opacity = 0.0 }
     }
 }
 
-struct MyAnimationView_Previews: PreviewProvider {
+struct LoadingView_Previews: PreviewProvider {
     static var previews: some View {
-        MyAnimationView(width: 200, height: 200)
+        LoadingView(width: 200, height: 200)
     }
 }
